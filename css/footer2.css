@@ -1,0 +1,18 @@
+footer#footer2 {
+  height: 150px;
+  background-color: #1a1a1a;
+}
+footer#footer2 .ftinfo {
+  width: 1200px;
+  text-align: center;
+}
+footer#footer2 .ftinfo h2 {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+}
+footer#footer2 .ftinfo p {
+  margin-top: 16px;
+  font-size: 10px;
+  color: rgb(102, 102, 102);
+}

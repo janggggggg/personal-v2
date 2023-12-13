@@ -1,0 +1,73 @@
+footer {
+  height: 350px;
+  position: relative;
+  background-color: #222222;
+}
+footer .foot {
+  
+}
+footer .foot h2 {
+  color: white;
+  font-weight: 700;
+}
+footer .foot .border {
+  color: white;
+  text-align: center;
+  margin: 20px 0 40px;
+}
+footer .foot .border::before, footer .foot .border::after {
+  display: inline-block;
+  margin-top: 65px;
+  content: "";
+  background-color: #fff;
+  width: 350px;
+  height: 1px;
+}
+footer .foot .sns {
+  gap: 200px;
+  margin-top: 25px;
+}
+footer .foot .sns ul {
+  
+}
+footer .foot .sns ul li {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 102px;
+  height: 102px;
+  font-size: 0;
+  background-color: white;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+footer .foot .sns ul li:nth-child(1) {
+  background-image: url(../img/git.svg);
+}
+footer .foot .sns ul li:nth-child(2) {
+  background-image: url(../img/mail.svg);
+}
+footer .foot .sns ul li:nth-child(3) {
+  background-image: url(../img/talk.svg);
+}
+footer .foot .sns ul li a {
+  
+}
+footer .foot .sns ul p {
+  text-align: center;
+  color: white;
+}
+footer a.top{
+  width: 46px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #999;
+  box-shadow: 0 0 5px #333;
+  right: calc((100% - 1080px) / 2 - 46px);
+  top: -80px;
+  line-height: 40px;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+#title {
+  height: calc(100%);
+  min-height: 800px;
+  padding-top: 200px;
+  background-image: url(../img/title.png);
+  background-size: cover;
+  background-position: center center;
+}
+#title .wrap {
+
+}
+#title .wrap h2 {
+  transform: translateX(200px) translateY(600px);
+  color: white;
+}
